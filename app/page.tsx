@@ -1,6 +1,6 @@
 // .png icons import for links 
 import { FaLinkedin, FaGithub } from "react-icons/fa";  // From FontAwesone Brands
-import { IoMail } from 'react-icons/io5';  //Ionicons for Mail
+// import { IoMail } from 'react-icons/io5';  //Ionicons for Mail
 
 export default function Home() {
   return (
@@ -25,6 +25,7 @@ export default function Home() {
           I bridge the gap between complex project management and modern full-stack code. 
           Formerly a Document COntroller, now a Full Stack Developer focused on clean architecture and user-centric products. 
         </p>
+        
       </section>
     </main>
   );
