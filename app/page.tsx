@@ -13,6 +13,7 @@ useEffect(() => {
     const handleWheel = (e: WheelEvent) => {
       e.preventDefault();  // prevent default scroll behavior to take full control of scrolling
       if (isScrolling) return;  // if already scrolling, ignore new scroll events
+      if (Math.abs(e.deltaY) < 30) return;  // ignore small scrolls to prevent accidental section changes
       const direction = e.deltaY > 0 ? 1 : -1;  // determine scroll direction
       // deltaY > 0 means scrolling down, so direction is 1; otherwise, it's -1 for scrolling up
       const next = Math.max(0, Math.min(totalSections - 1, activeSection + direction));  
