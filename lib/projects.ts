@@ -52,7 +52,7 @@ export const projects : ProjectType[] = [
     ],
     stack: ["Next.js 14", "TypeScript", "OpenAI API", "Prisma", "PostgreSQL", "Tailwind CSS"],
     live: null,
-    github: "https://github.com/NiroulaSunam",
+    github: "https://github.com/NiroulaSunam/ai-finance-tracker",
     accent: "#a78bfa",
     accentDim: "rgba(167,139,250,0.08)",
     type: "web",
