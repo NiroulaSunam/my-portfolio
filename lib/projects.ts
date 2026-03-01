@@ -43,7 +43,7 @@ export const projects : ProjectType[] = [
     title: "AI Finance Tracker",
     subtitle: "Natural language personal finance — in development",
     description:
-      "An AI-powered finance tracker where you describe your expenses in plain English and the app categorizes, logs, and visualizes your spending automatically. No manual entry.",
+      "An AI-powered finance tracker where you describe your expenses in plain English and the app categorizes, logs, and visualizes your spending automatically.",
     bullets: [
       "OpenAI API integration for natural language expense input",
       "Automatic categorization and tagging of transactions",
